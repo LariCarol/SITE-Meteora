@@ -1,0 +1,129 @@
+/* PAGE HOME: NAVIBAR */
+.navbar-nav .nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active 
+.navbar-nav .nav-link.selected {
+    background-color: #895fb5;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/*PAGE HOME: NOUS SOMMES LA POUR VOUS*/
+.text-petit {
+    font-size: 13px;
+}
+
+.divs-facilites {
+    width: 325px;
+}
+
+.div-nouveautes {
+    width: 325px;
+}
+
+.button-lilas {
+    background-color: #9353FF;
+}
+
+.vert-citron {
+    color: #DAFF01;
+}
+
+/*  PAGE PROMOTIONS:Efecte passer mouse */
+
+.nav-item .nav-link:hover, 
+.nav-item .nav-link.active
+.nav-item .nav-link.selected{
+    background-color: #895fb5;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    transition: all 0.3s;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.1);
+    opacity: 0;
+}
+
+/* PAGE PRODUITS */
+.filter-button {
+    min-width: 120px;
+}
+
+/* PAGE PRODUITS - SEARCH */
+.btn-outline-light {
+    border: 2px solid #000;
+    color: #000;
+    background-color: #fff;
+    
+}
+
+/* PAGE PROMOTIONS - VOUCHER */
+.voucher-promo-section {
+    overflow: hidden; 
+    padding-left: 0; 
+    padding-right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+.voucher-promo-section img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
+  
+/* PAGE CONTACT - FORMULAIRE */
+.form-container {
+    max-width: 50% !important; 
+    margin: 0 auto;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer a:hover {
+    color: #DAFF01;
+    text-decoration: underline;
+}
+.footer .reseaux_sociaux img {
+    margin: 0 10px;
+    width: 24px;
+    height: 24px;
+}
+.footer .logo img {
+    width: 100px;
+}
+.footer .logo p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+
+
+
+  
